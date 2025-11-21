@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arabian Nights — Quiz</title>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="quiz-box" class="quiz-container fade-in">
+    <div class="difficulty-badge">EASY</div>
+    <div id="questionWrap">
+      <div id="question" class="question">Loading question...</div>
+    </div>
+
+    <div class="options" id="options"></div>
+
+    <div style="text-align:center">
+      <button id="nextBtn" class="next-btn">Next</button>
+    </div>
+  </div>
+
+ 
+  <div class="magic" aria-hidden="true"></div>
+  <div id="overlay-flash" aria-hidden="true"></div>
+  
+  <img src="magic.jpg" class="floating-carpet" id="carpet" alt="" aria-hidden="true">
+
+
+  <div id="resultMsg" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
